@@ -1,0 +1,23 @@
+/*
+Theme Name: Arkitekt Child - DO NOT UPDATE PARENT
+Author: WowThemes
+Version: 1.0
+Author URI: http://themeforest.net/user/wow_themes
+Theme URI: http://themeforest.net/user/wow_themes
+Description: A sleek Woocommerce WordPress Theme by - <a href="http://titleto.com/">Wow themes</a>
+License: ''
+License URI: ''
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, fluid-layout, custom-header, custom-menu, editor-style, featured-images, rtl-language-support, sticky-post, translation-ready
+Text Domain: wp_arkitekt
+Template: arkitekt
+*/
+
+@import url(../arkitekt/css/style.css);
+
+.home-blog img {
+	width:auto !important;
+}
+
+.feat-text p {
+	color:#fff !important;
+}

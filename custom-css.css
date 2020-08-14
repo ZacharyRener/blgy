@@ -1,0 +1,24 @@
+.home-blog img {
+	width:auto !important;
+}
+
+.feat-text p {
+	color:#fff !important;
+}
+
+.feature-box:hover .feat-text p {
+color:#000 !important;
+}
+
+.main-a {
+  font-weight:700;
+  color:#7CB06F;
+}
+
+.menu-item .span {
+	font-weight:700;
+}
+
+#nav {
+	width:730px;
+}

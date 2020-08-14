@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+header {
+
+    position: fixed;
+
+    &, & * {
+        z-index:50;
+    }
+    
+    .menu-item-has-children ul.dropdown-menu {
+       
+    }
+
+    .menu-item-has-children .menu-item{
+
+        padding: 5px 20px !important;
+
+
+        &:nth-child(1) {
+            padding-top:20px !important;
+            margin-top: 43px;
+            border-top: 7px solid #82b575;
+            position: relative;
+            &::after {
+                padding: 0;
+                margin: 0;
+                display: block;
+                content: "";
+                width: 50%;
+                height: 7px;
+                background-color: #eee;
+                position: absolute;
+                right: 0;
+                top: -7px;
+            }
+        }
+
+        &:nth-last-child(1) {
+            padding-bottom:20px !important;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+    }
+
+    @media(min-width:2400px){
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(238,238,238,1) 35%, rgba(238,238,238,1) 100%);
+    }
+
+    @media(max-width:2399px) and (min-width:981px) {
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(238,238,238,1) 30%, rgba(238,238,238,1) 100%);
+    }
+
+    @media(max-width:980px) {
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(238,238,238,1) 30%, rgba(238,238,238,1) 100%);
+    }
+    
+
+    .menu-item-has-children ul.dropdown-menu{
+        position: absolute;
+        top:20px;
+        li {
+            background: rgba(78, 86, 92, 0.97);
+            span {
+                color: white !important;
+                font-size: 16px !important;
+                font-weight: 300 !important;
+            }
+        }
+        &:not(.show) {
+            display: none;
+        }
+        &.show {
+            display: block;
+        }
+    }
+
+    ul#top-menu {
+        display: flex;
+        li {
+            padding:0 20px;
+            span {
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                text-transform: capitalize !important;
+                color: #4c5459;
+            }
+        }
+    }
+
+    div#nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: auto !important;
+        margin: 0 !important;
+        float: right;
+        right: 0;
+    }
+    
+    .upper-header.wrapper {
+        position: relative;
+    }
+
+}
+
+.flexwrapper, .flexwrapper * {
+    z-index: 1;
+}
+
+.flexwrapper { 
+    position: relative;
+    padding-top: 134px;
+}
